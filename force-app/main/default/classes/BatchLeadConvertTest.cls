@@ -6,7 +6,7 @@ public class BatchLeadConvertTest {
         Lead l = new Lead(
                 FirstName = 'Bobby',
                 LastName = 'Bobson',
-                Company = 'Salesforce'
+                Company = 'Salesforce One'
         );
         insert l;
         BatchLeadConvert job = new BatchLeadConvert();

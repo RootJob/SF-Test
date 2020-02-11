@@ -7,7 +7,7 @@ public with sharing class BatchLeadConvert implements Database.Batchable<SObject
         return Database.getQueryLocator([SELECT Id FROM Lead WHERE ConvertedContactId = null]);
     }
     
-    //from eclipse
+    //from eclipse 2
 
     public void execute(Database.BatchableContext ctx, List<Lead> records){
         List<Database.LeadConvert> leadConverts = new List<Database.LeadConvert>();
